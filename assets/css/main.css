@@ -1439,7 +1439,7 @@ p {
 
 .shadow1 {
   box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
-}
+} 
 
 .shadow2 {
   box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.04);
@@ -1942,7 +1942,9 @@ p {
 }
 @media screen and (max-width: 1720px) {
   .header-style-inner .header-wrapper {
-    gap: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .header-style-inner .header-wrapper .main-logo {
     padding: 5px;
@@ -2022,7 +2024,10 @@ p {
     margin: 0 auto;
   }
 }
-
+.custom-toggle-bar{
+  display: flex;
+  align-items: center;
+}
 .header-style-inner.menu-fixed {
   position: fixed;
   top: 0;
